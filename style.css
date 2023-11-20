@@ -1,0 +1,18 @@
+.tempContainer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    grid-template-columns:repeat(auto-fit,minmax(330px,1fr));
+    /* flex-direction: column; */
+    /* width: 300px; */
+    padding: 10px;
+    gap: 20px;
+}
+.box{
+   text-align: center;
+    width: auto;
+    height: 150px;
+    border: 1px solid black;
+    padding: 30px;
+}
